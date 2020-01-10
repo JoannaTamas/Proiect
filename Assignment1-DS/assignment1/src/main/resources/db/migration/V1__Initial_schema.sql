@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS Patient(
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    patient_name VARCHAR(32) NOT NULL,
+    birth_date VARCHAR(64) NOT NULL,
+    gender VARCHAR(64) NOT NULL,
+    address VARCHAR(64) NOT NULL,
+    medical_record VARCHAR(64) NOT NULL
+
+);
+
+CREATE TABLE IF NOT EXISTS Doctor(
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    doctor_name VARCHAR(32) NOT NULL,
+    doctor_password VARCHAR(64) NOT NULL
+
+
+);
